@@ -1,0 +1,190 @@
+/* titles and text */
+/* site/subsite name (eksempel "ansatte" eller "værdigrundlag") */
+h1{
+
+}
+/* underoverskrifter*/
+h2{
+
+}
+/* flere end 3 overskrifter på et site */
+h3{
+
+}
+h4{
+  text-align: right;
+  margin: 10px 10px 10px 0;
+}
+/* alt brødtext */
+p{
+
+}
+
+/* colorschemes */
+/* background-grey */
+.color01{
+  background-color: rgba(125, 125, 125, 1);
+}
+/* background-sand */
+.color02{
+    background-color: rgba(253, 248, 240, 1);
+}
+/* tile1 (index) */
+.color1{
+  background-color: rgba(190, 72, 131, 0.74);
+}
+/* tile2 (index) */
+.color2{
+  background-color: rgba(82, 212, 172, 0.74);
+}
+/* tile3 (index) */
+.color3{
+  background-color: rgba(255, 170, 85, 0.74);
+}
+/* tile4 (index) */
+.color4{
+  background-color: rgba(119, 168, 233, 0.74);
+}
+
+/* images */
+img{
+  width: 100%;
+  height: 100%;
+}
+.image-fit{
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+/* image for fronttiles */
+/* top full width tile */
+.image000{
+  background-image: url("../images/image-placeholder000.png");
+}
+/* second line tile 1 */
+.image001{
+  background-image: url("../images/image-placeholder.png");
+}
+/* second line tile 2 */
+.image002{
+  background-image: url("../images/image-placeholder.png");
+}
+/* second line tile 3 */
+.image003{
+  background-image: url("../images/image-placeholder.png");
+}
+/* banner images */
+/* banner image for subsite "personale" */
+.image004{
+
+}
+/* banner image for subsite "værdigrundlag" */
+.image005{
+
+}
+/* banner image for subsite "indmeldelse" */
+.image006{
+
+}
+
+
+/* website spacers */
+/* spacer placing itself vertically, used for horizontal stacking */
+.verticalspacer{
+  width: 35px;
+  height: 10px;
+}
+/* spacer placing itself horizontally, used for vertical spacing */
+.horizontalspacer{
+  height: 35px;
+  width: 100%;
+}
+/* ----------------------------------------------------------------------*/
+/* header */
+header{
+  width: 100%;
+  min-height: 10px;
+}
+
+nav{
+
+}
+
+.logo-tile{
+
+}
+
+.header-link-tile{
+
+}
+
+/* footer */
+footer{
+  position: relative;
+  bottom: 0px;
+  width: 100%;
+  min-height: 10px;
+  background-color: white;
+}
+/* ---------------------------------------------------------------------- */
+/* universal modifiers */
+.flex-direction-column{
+  flex-direction: column;
+}
+.flex-direction-row{
+  flex-direction: row;
+}
+body{
+  margin: 0;
+}
+main{
+  padding-left: 10%;
+  padding-right: 10%;
+}
+.flex1{
+  flex: 1;
+}
+.flex2{
+  flex: 2;
+}
+
+
+/* tile building classes */
+.tilecontainer{
+  display: flex;
+  min-height: 10px;
+  width: 100%;
+  flex-wrap: wrap;
+}
+.tile-full-width{
+  position: relative;
+  display: block;
+  width: 100%;
+  min-height: 10px;
+}
+.tile{
+  position: relative;
+  width: 200px;
+  min-height: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ---------------------------------------------------------------------- */
+/* posible junk solutions - keep this at bottom */
+.height400{
+  height: 400px;
+}
+.bottom000{
+  position: absolute;
+  bottom: 0px;
+}
