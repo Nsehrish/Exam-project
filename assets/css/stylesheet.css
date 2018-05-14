@@ -103,18 +103,29 @@ img{
 header{
   width: 100%;
   min-height: 10px;
+  height: 150px;
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-end;
 }
 
 nav{
-
+  background-color: blue;
+  width: 1055px;
+  height: 39px;
 }
 
 .logo-tile{
-
+ background-color: red;
+ height: 120px;
+ width: 120px;
+ z-index: 20;
 }
 
 .header-link-tile{
-
+ background-color: green;
+ width: 151px;
+ height: 85px;
 }
 
 /* footer */
