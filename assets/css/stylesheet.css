@@ -1,15 +1,37 @@
 /* titles and text */
+@font-face {
+    font-family: "MyriadSetPro700";
+    src: url("../font/Myriad Set Pro 700 Bold.ttf");
+}
+@font-face {
+    font-family: "MyriadSetPro600";
+    src: url("../font/Myriad Set Pro 600 Semibold.ttf");
+}
+@font-face {
+    font-family: "MyriadSetPro400";
+    src: url("../font/Myriad Set Pro 400 Text.ttf");
+}
+@font-face {
+    font-family: "MyriadSetPro100";
+    src: url("../font/Myriad Set Pro 100 Ultralight.ttf");
+}
 /* site/subsite name (eksempel "ansatte" eller "værdigrundlag") */
 h1{
-
+  font-family: "MyriadSetPro700";
+  font-size: 2em;
+  margin: 5px 0 5px 0;
 }
 /* underoverskrifter*/
 h2{
-
+  font-family: "MyriadSetPro600";
+  font-size: 1.5em;
+  margin: 5px 0 5px 0;
 }
 /* flere end 3 overskrifter på et site */
 h3{
-
+  font-family: "MyriadSetPro100";
+  font-size: 2em;
+  margin: 5px 0 5px 0;
 }
 h4{
   text-align: right;
@@ -17,7 +39,9 @@ h4{
 }
 /* alt brødtext */
 p{
-
+  font-family: "MyriadSetPro600";
+  font-size: 1em;
+  margin: 0 10px 10px 0;
 }
 
 /* colorschemes */
@@ -54,6 +78,7 @@ img{
 .image-fit{
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: center;
 }
 /* image for fronttiles */
 /* top full width tile */
@@ -136,6 +161,7 @@ footer{
   min-height: 10px;
   background-color: white;
 }
+
 /* ---------------------------------------------------------------------- */
 /* universal modifiers */
 .flex-direction-column{
