@@ -6,27 +6,42 @@
     <link rel="stylesheet" type="text/css" href="assets\css\stylesheet.css">
   </head>
 
-  <body>
+  <body class="color02">
     <header class="color01 flex-direction-row">
       <div class="logo-tile">
       </div>
+
       <nav>
-        <ul>
-          <li><p>SKOLE</p></li>
-          <li><p>SFO</p></li>
-          <li><a href="boernehave.html"><p>BØRNEHAVE</p></a></li>
-          <li><p>PRAKTISK INFO</p></li>
-          <li><a href="kontakt.html"><p>KONTAKT</p></a></li>
-        </ul>
+        <div class="skole">
+          <a href="#" class="dropbtn"><h2>SKOLE</h2></a>
+          <div class="dropdown-content">
+            <a href="om-skolen.html"><p>OM SKOLEN</p></a>
+            <a href="7-8-klasse.html"><p>7-8 KLASSE</p></a>
+            <a href="dagligdagen-skole.html"><p>DAGLIGDAGEN</p></a>
+            <a href="ansatte.html"><p>ANSATTE</p></a>
+          </div>
+        </div>
+        <a href="#"><h2>SFO</h2></a>
+        <a href="boernehave.html"><h2>BØRNEHAVE</h2></a>
+        <a href="#"><h2>PRAKTISK INFO</h2></a>
+        <a href="kontakt.html"><h2>KONTAKT</h2></a>
       </nav>
+
       <div class="header-link-tile">
-        <div id=intra-container>
-          <a href="https://billumfriskole.viggo.dk/Account/Login?ReturnUrl=%2F"><p>Intranet</p></a>
+        <div class="header-intranet flex-direction-row">
+          <p>
+          <a href="https://billumfriskole.viggo.dk/Account/Login?ReturnUrl=%2F">
+            <img src="assets/images/icons/viggo.png" alt="Billum Friskole Intranet Viggo" style="width:30px;height:30px;">
+          Intranet</p></a>
         </div>
-        <div id=header-facebook-container>
+
+        <div class="header-facebook-container flex-direction-row">
+            <p>
             <a href="https://www.facebook.com/billumfriskole/">
-            <img src="assets\images\index.png" alt="FacebookSide" style="width:50px;height:50px;"><p>Facebook</p></a>
+            <img src="assets/images/icons/facebook.png" alt="Billum Friskole Facebook" style="width:30px;height:30px;">
+            Facebook</p></a>
         </div>
+      </div>
     </header>
   </body>
 </html>
