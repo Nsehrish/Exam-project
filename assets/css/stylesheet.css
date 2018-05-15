@@ -69,19 +69,19 @@ nav p{
 }
 /* tile1 (index) */
 .color1{
-  background-color: rgba(190, 72, 131, 0.74);
+  background-color: rgba(190, 72, 131, 0.64);
 }
 /* tile2 (index) */
 .color2{
-  background-color: rgba(82, 212, 172, 0.74);
+  background-color: rgba(82, 212, 172, 0.64);
 }
 /* tile3 (index) */
 .color3{
-  background-color: rgba(255, 170, 85, 0.74);
+  background-color: rgba(255, 170, 85, 0.64);
 }
 /* tile4 (index) */
 .color4{
-  background-color: rgba(119, 168, 233, 0.74);
+  background-color: rgba(119, 168, 233, 0.64);
 }
 
 /* images */
@@ -97,15 +97,16 @@ img{
 /* image for fronttiles */
 /* top full width tile */
 .image000{
-  background-image: url("../images/image-placeholder000.png");
+background-image: url("../images/på-tur-front-banner.png");
 }
 /* second line tile 1 */
 .image001{
-  background-image: url("../images/image-placeholder.png");
+  background-image: url("../images/aktivitet.jpg");
 }
 /* second line tile 2 */
 .image002{
-  background-image: url("../images/image-placeholder.png");
+  z-index: -5;
+  background-image: url("../images/hjælpe-hinanden-tile2.jpg");
 }
 /* second line tile 3 */
 .image003{
@@ -118,7 +119,6 @@ img{
 }
 /* banner image for subsite "værdigrundlag" */
 .image005{
-
 }
 /* banner image for subsite "indmeldelse" */
 .image006{
@@ -352,4 +352,9 @@ main{
 
 .padding-right {
   padding-right: 10%;
+}
+.fullbox{
+  top: -5px;
+  width: 100%;
+  height: 100%;
 }
