@@ -134,18 +134,19 @@ img{
 /* header */
 header{
   width: 100%;
-  min-height: 10px;
-  height: 150px;
+  min-height: 151px;
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
   align-items: flex-end;
+  flex-wrap: wrap;
 }
 
 nav{
   background-color: blue;
   height: 39px;
-  width: 100%;
-  padding: 0 2% 0 2%;
+  width: auto;
+  display: flex;
+  flex-wrap: wrap;
 }
 
 nav ul{
@@ -153,19 +154,33 @@ nav ul{
   margin: 0;
   list-style-type: none;
   display: flex;
-  justify-content: space-between;
   flex-wrap: wrap;
+  max-height: 39px;
+  justify-content: space-between;
 }
 
 nav li{
+  padding: 0 40px;
   float: left;
+  border-right: 1px solid rgba(253, 248, 240, 1);
+  background-color: purple;
+}
+
+nav li:last-child{
+  border-right: none;
+}
+
+nav a{
+  text-decoration: none;
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .logo-tile{
  background-color: red;
  height: 120px;
  min-width: 120px;
- z-index: 20;
+ padding: 0 5px 0 5px;
 }
 
 .header-link-tile{
