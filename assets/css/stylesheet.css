@@ -44,6 +44,13 @@ p{
   margin: 0 10px 10px 0;
 }
 
+nav p{
+  font-family: "MyriadSetPro700";
+  font-size: 2em;
+  margin: 5px 0 5px 0;
+  color: rgba(253, 248, 240, 1);
+}
+
 /* colorschemes */
 /* background-grey */
 .color01{
@@ -130,20 +137,34 @@ header{
   min-height: 10px;
   height: 150px;
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
   align-items: flex-end;
 }
 
 nav{
   background-color: blue;
-  width: 1055px;
   height: 39px;
+  width: 100%;
+  padding: 0 2% 0 2%;
+}
+
+nav ul{
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+nav li{
+  float: left;
 }
 
 .logo-tile{
  background-color: red;
  height: 120px;
- width: 120px;
+ min-width: 120px;
  z-index: 20;
 }
 
