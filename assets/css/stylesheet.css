@@ -303,3 +303,11 @@ main{
 .height200{
   height: 200px;
 }
+
+.padding-left {
+  padding-left: 10%;
+}
+
+.padding-right {
+  padding-right: 10%;
+}
