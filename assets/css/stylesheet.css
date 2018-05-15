@@ -159,31 +159,31 @@ footer{
   bottom: 0px;
   width: 100%;
   min-height: 10px;
-  background-color: white;
+  background-color: rgba(253, 248, 240, 1);
   display: flex;
 
 }
 
-.verticalspacer2 {
-  width: 100px;
- margin: 10px;
+.footertile{
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+}
+
+.button{
+  background-color: rgba(125, 125, 125, 1);
+ border: none;
+ color: white;
+ padding: 15px 32px;
  text-align: center;
+ text-decoration: none;
+ display: inline-block;
+ font-size: 16px;
+ margin: 4px 2px;
+ cursor: pointer;
 }
 
 
-.button {
-  background-color: grey;
-  border: none;
-  padding: 15px 32px;
-  color: white;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  margin: 4px 2px;
-  font-size: 16px;
-  cursor: pointer;
-
-};
 
 /*
 
