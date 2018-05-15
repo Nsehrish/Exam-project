@@ -124,14 +124,44 @@ footer{
   width: 100%;
   min-height: 10px;
   background-color: white;
+  display: flex;
+
 }
-/* ---------------------------------------------------------------------- */
+
+.verticalspacer2 {
+  width: 100px;
+ margin: 10px;
+ text-align: center;
+}
+
+
+.button {
+  background-color: grey;
+  border: none;
+  padding: 15px 32px;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 4px 2px;
+  font-size: 16px;
+  cursor: pointer;
+
+};
+
+/*
+
+ ---------------------------------------------------------------------- */
 /* universal modifiers */
 .flex-direction-column{
   flex-direction: column;
 }
 .flex-direction-row{
   flex-direction: row;
+
+
+
+
 }
 body{
   margin: 0;
