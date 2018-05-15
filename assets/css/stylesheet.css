@@ -142,11 +142,9 @@ header{
 }
 
 nav{
-  background-color: blue;
-  height: 39px;
+  min-height: 39px;
   width: auto;
   display: flex;
-  flex-wrap: wrap;
 }
 
 nav ul{
@@ -163,7 +161,6 @@ nav li{
   padding: 0 40px;
   float: left;
   border-right: 1px solid rgba(253, 248, 240, 1);
-  background-color: purple;
 }
 
 nav li:last-child{
