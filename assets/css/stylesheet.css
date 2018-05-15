@@ -159,6 +159,7 @@ footer{
   bottom: 0px;
   width: 100%;
   min-height: 10px;
+<<<<<<< HEAD
   background-color: rgba(253, 248, 240, 1);
   display: flex;
 
@@ -188,16 +189,18 @@ footer{
 /*
 
  ---------------------------------------------------------------------- */
+=======
+  background-color: white;
+}
+
+/* ---------------------------------------------------------------------- */
+>>>>>>> 4c387f788ee384d800fd909ab1df092a93c3ca81
 /* universal modifiers */
 .flex-direction-column{
   flex-direction: column;
 }
 .flex-direction-row{
   flex-direction: row;
-
-
-
-
 }
 body{
   margin: 0;
