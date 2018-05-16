@@ -229,6 +229,17 @@ nav a:last-child{
 }
 
 /* footer */
+
+.box{
+  border: 0px;
+  height: 10px;
+  position: relative;
+  width: 104;
+  display: flex;
+
+
+}
+
 footer{
   position: relative;
   bottom: 0px;
@@ -236,6 +247,7 @@ footer{
   min-height: 10px;
   background-color: rgba(253, 248, 240, 1);
   display: flex;
+  padding: 0 10%;
 
 }
 
@@ -243,6 +255,8 @@ footer{
   display: flex;
   flex: 1;
   flex-direction: column;
+
+
 }
 
 .button{
