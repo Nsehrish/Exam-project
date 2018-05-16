@@ -15,28 +15,39 @@
     font-family: "MyriadSetPro100";
     src: url("../font/Myriad Set Pro 100 Ultralight.ttf");
 }
+@font-face {
+    font-family: "CenturyGothic";
+    src: url("../font/Century Gothic Regular.ttf");
+}
 /* site/subsite name (eksempel "ansatte" eller "værdigrundlag") */
 h1{
   font-family: "MyriadSetPro700";
   font-size: 2em;
-  margin: 5px 0 5px 0;
+  margin: 0;
 }
 /* underoverskrifter*/
 h2{
   font-family: "MyriadSetPro600";
   font-size: 1.5em;
-  margin: 5px 0 5px 0;
+  margin: 0;
 }
 /* flere end 3 overskrifter på et site */
 h3{
   font-family: "MyriadSetPro100";
   font-size: 2em;
-  margin: 5px 0 5px 0;
+  margin: 0;
 }
 h4{
   text-align: right;
   margin: 10px 10px 10px 0;
 }
+h5{
+
+}
+h6{
+
+}
+
 /* alt brødtext */
 p{
   font-family: "MyriadSetPro600";
@@ -97,25 +108,25 @@ img{
 /* image for fronttiles */
 /* top full width tile */
 .image000{
-background-image: url("../images/på-tur-front-banner.png");
+background-image: url("../images/front-banner-på-tur.png");
 }
 /* second line tile 1 */
 .image001{
-  background-image: url("../images/aktivitet.jpg");
+  background-image: url("../images/tile1-aktivitet.jpg");
 }
 /* second line tile 2 */
 .image002{
   z-index: -5;
-  background-image: url("../images/hjælpe-hinanden-tile2.jpg");
+  background-image: url("../images/tile2-hjælpe-hinanden.jpg");
 }
 /* second line tile 3 */
 .image003{
-  background-image: url("../images/image-placeholder.png");
+  background-image: url("../images/tile3-skolebog.jpg");
 }
 /* banner images */
 /* banner image for subsite "ansatte" */
 .image004{
-  background-image: url("../images/image-placeholder000.png");
+  background-image: url("../images/banner1-gruppe-læsning.jpg");
 }
 /* banner image for subsite "værdigrundlag" */
 .image005{
