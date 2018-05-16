@@ -175,6 +175,7 @@ nav a:last-child{
 nav a:hover, .nav-drop:hover .knap-drop h3{
   background-color: white;
   color: rgba(125, 125, 125, 1);
+  opacity: 0.9;
 }
 
 nav a:hover h3{
@@ -199,6 +200,7 @@ nav a:hover h3{
   min-width: 169px;
   z-index: 1;
   margin-top: 34px;
+  opacity: 0.9;
 }
 
 .dropdown-content a{
