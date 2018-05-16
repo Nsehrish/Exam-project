@@ -15,6 +15,10 @@
     font-family: "MyriadSetPro100";
     src: url("../font/Myriad Set Pro 100 Ultralight.ttf");
 }
+@font-face {
+    font-family: "CenturyGothic";
+    src: url("../font/Century Gothic Regular.ttf");
+}
 /* site/subsite name (eksempel "ansatte" eller "værdigrundlag") */
 h1{
   font-family: "MyriadSetPro700";
@@ -37,6 +41,13 @@ h4{
   text-align: right;
   margin: 10px 10px 10px 0;
 }
+h5{
+
+}
+h6{
+  
+}
+
 /* alt brødtext */
 p{
   font-family: "MyriadSetPro600";
