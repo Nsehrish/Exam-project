@@ -84,7 +84,6 @@ p{
 /* images */
 img{
   width: 100%;
-  height: 100%;
 }
 .image-fit{
   background-repeat: no-repeat;
@@ -102,7 +101,6 @@ background-image: url("../images/front-banner-på-tur.png");
 }
 /* second line tile 2 */
 .image002{
-  z-index: -5;
   background-image: url("../images/tile2-hjælpe-hinanden.jpg");
 }
 /* second line tile 3 */
@@ -116,10 +114,11 @@ background-image: url("../images/front-banner-på-tur.png");
 }
 /* banner image for subsite "værdigrundlag" */
 .image005{
+  background-image: url("../images/banner2-billedkunst.jpg");
 }
 /* banner image for subsite "indmeldelse" */
 .image006{
-
+  background-image: url("../images/banner3-klasse-arbejde2.jpg");
 }
 
 
@@ -352,6 +351,12 @@ main{
   height: 2px;
 }
 
+.bottom000 h3, .bottom000 p, .fullbox h3, .fullbox p{
+  margin: 10px;
+  top: 10px;
+  color: white;
+}
+
 
 
 
@@ -388,4 +393,5 @@ main{
   top: -5px;
   width: 100%;
   height: 100%;
+  transform-origin: -10px 0;
 }
