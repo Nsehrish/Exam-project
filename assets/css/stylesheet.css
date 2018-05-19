@@ -137,10 +137,9 @@ background-image: url("../images/front-banner-på-tur.png");
 /* header */
 header{
   width: 100%;
-  min-height: 151px;
+  min-height: 100px;
   display: flex;
   justify-content: space-around;
-  align-items: flex-end;
   flex-wrap: wrap;
 }
 
@@ -157,6 +156,7 @@ nav p{
 
 nav{
   overflow: hidden;
+  align-self: flex-end;
 }
 
 nav a{
@@ -174,7 +174,6 @@ nav a:last-child{
 nav a:hover, .nav-drop:hover .knap-drop h3{
   background-color: white;
   color: rgba(125, 125, 125, 1);
-  opacity: 0.9;
 }
 
 nav a:hover h3{
@@ -216,7 +215,7 @@ nav a:hover h3{
 
 
 .dropdown-content a:hover p{
-  color: rgba(190, 72, 131, 0.64);
+  color: black;
 }
 
 .dropdown-content:hover, .nav-drop:hover .knap-drop{
@@ -224,23 +223,24 @@ nav a:hover h3{
 }
 
 .logo-tile{
- background-color: red;
- height: 120px;
- min-width: 120px;
- padding: auto 5px auto 5px;
+   align-self: flex-end;
+   padding-left: 6px;
 }
 
 .header-link-tile{
- width: 110px;
+ width: 120px;
  height: 85px;
+ align-self: flex-end;
 }
 
 .header-link-tile a{
    color: rgba(253, 248, 240, 1);
+   text-decoration: none;
 }
 
 .header-link-tile a:hover{
    color: rgba(247, 226, 196, 1);
+   text-decoration: none;
 }
 
 .header-facebook-container{
