@@ -336,6 +336,9 @@ main{
 .flexgrow1{
   flex-grow: 1;
 }
+.padding10{
+  padding: 10px;
+}
 
 
 /* tile building classes */
