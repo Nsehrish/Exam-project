@@ -8,14 +8,6 @@
     src: url("../font/Myriad Set Pro 600 Semibold.ttf");
 }
 @font-face {
-    font-family: "MyriadSetPro400";
-    src: url("../font/Myriad Set Pro 400 Text.ttf");
-}
-@font-face {
-    font-family: "MyriadSetPro100";
-    src: url("../font/Myriad Set Pro 100 Ultralight.ttf");
-}
-@font-face {
     font-family: "CenturyGothic";
     src: url("../font/Century Gothic Regular.ttf");
 }
@@ -41,12 +33,6 @@ h4{
   text-align: right;
   margin: 10px 10px 10px 0;
 }
-h5{
-
-}
-h6{
-
-}
 
 /* alt brødtext */
 p{
@@ -54,7 +40,6 @@ p{
   font-size: 1em;
   margin: 0 10px 10px 0;
 }
-
 /* colorschemes */
 /* background-grey */
 .color01{
@@ -85,6 +70,7 @@ p{
 img{
   width: 100%;
 }
+
 .image-fit{
   background-repeat: no-repeat;
   background-size: cover;
@@ -96,6 +82,7 @@ img{
   background-size: contain;
   background-position: center;
 }
+
 /* image for fronttiles */
 /* top full width tile */
 .image000{
@@ -133,17 +120,6 @@ background-image: url("../images/front-banner-på-tur.png");
   background-image: url("../images/logo-2.png");
 }
 
-/* website spacers */
-/* spacer placing itself vertically, used for horizontal stacking */
-.verticalspacer{
-  width: 35px;
-  height: 10px;
-}
-/* spacer placing itself horizontally, used for vertical spacing */
-.horizontalspacer{
-  height: 35px;
-  width: 100%;
-}
 /* ----------------------------------------------------------------------*/
 /* header */
 header{
@@ -175,7 +151,6 @@ nav a{
   text-align: center;
   padding: 0px 40px;
   text-decoration: none;
-
 }
 
 nav .nav-drop:last-child{
@@ -225,7 +200,6 @@ nav a:hover h3{
   display: block;
 }
 
-
 .dropdown-content a:hover p{
   color: black;
 }
@@ -266,7 +240,6 @@ nav a:hover h3{
 }
 
 /* footer */
-
 .box{
   border: 0px;
   height: 10px;
@@ -304,8 +277,6 @@ footer{
   cursor: pointer;
 }
 
-
-
 /* ---------------------------------------------------------------------- */
 /* universal modifiers */
 .flex-direction-column{
@@ -321,22 +292,18 @@ main{
   padding-left: 10%;
   padding-right: 10%;
 }
+a {
+  text-decoration: none;
+}
 .flex1{
   flex: 1;
-}
-.flex2{
-  flex: 2;
 }
 .flex3{
   flex: 3;
 }
-.flex4{
-  flex: 4;
-}
 .flexgrow1{
   flex-grow: 1;
 }
-
 
 /* tile building classes */
 .tilecontainer{
@@ -360,21 +327,26 @@ main{
   width: 100%;
   height: 2px;
 }
+/* website spacers */
+/* spacer placing itself vertically, used for horizontal stacking */
+.verticalspacer{
+  width: 35px;
+  height: 10px;
+}
+/* spacer placing itself horizontally, used for vertical spacing */
+.horizontalspacer{
+  height: 35px;
+  width: 100%;
+}
 
-.bottom000 h3, .bottom000 p, .fullbox h3, .fullbox p{
+/* ---------------------------------------------------------------------- */
+.index-typo{
   padding: 10px;
   top: 10px;
   color: white;
 }
-
-/* ---------------------------------------------------------------------- */
-/* posible junk solutions - keep this at bottom */
 .height400{
   min-height: 400px;
-}
-.bottom000{
-  position: absolute;
-  bottom: 0px;
 }
 .height200{
   height: 200px;
@@ -402,9 +374,6 @@ main{
   background-color: rgba(119, 168, 233, 0.9);
 }
 
-a {
-  text-decoration: none;
-}
 .selfcenter {
   padding: auto 0 auto 10px;
 }
