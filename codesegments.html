@@ -49,25 +49,68 @@
         <div class="line color01"></div>
         <div class="horizontalspacer"></div>
       </section>
-      <section class="tilecontainer flex-direction-column color2">
-        <article class="tile flex1">
+      <section class="tilecontainer flex-direction-column">
+        <article class="tile-full-width flex1">
           <h3>Form Elements</h3>
           <br>
-          <p></p>
+          <p>These elements are the basic small components on the site, such as navigation, icons, button and seperation line</p>
+          <br>
         </article>
-        <section class="tile flex1">
+        <section class="tile-full-width flex1">
           <h3>The Code:</h3>
+          <p>Navigation-tile with dropdown content</p>
+          <img src="assets\images\styleguide\nav-tile.JPG" alt="nav-tile" style="height:auto;width:150px;">
+          <img src="assets\images\styleguide\nav-dropdown.JPG" alt="nav-dropdown" style="height:auto;width:150px;">
           <xmp>
-
+<div class="nav-drop">
+  <a href="#" class="knap-drop"><h3>SKOLE</h3></a>
+  <div class="dropdown-content">
+    <a href="om-skolen.html"><p>OM SKOLEN</p></a>
+    <a href="7-8-klasse.html"><p>7-8 KLASSE</p></a>
+    <a href="dagligdagen-skole.html"><p>DAGLIGDAGEN</p></a>
+    <a href="ansatte.html"><p>ANSATTE</p></a>
+  </div>
+</div>
+          </xmp>
+          <p>"Indmeldelseblanket"-button</p>
+          <img src="assets\images\styleguide\indmeldelseblanket.JPG" alt="indmeldelsesblanket" style="height:auto;width:150px;">
+          <xmp>
+<p>
+  <input class="button" type="button" onclick="window.location.href='https://billumfriskole.viggo.dk/Account/Login?ReturnUrl=%2F'"value="login">
+</p>
+          </xmp>
+          <p>Facebook-icon in the navigation</p>
+          <img src="assets\images\styleguide\icon-nav.JPG" alt="icon nav" style="height:auto;width:150px;">
+          <xmp>
+<a href="https://www.facebook.com/billumfriskole/">
+<img src="assets/images/icons/facebook.png" alt="Billum Friskole Facebook" style="width:25px;height:25px;">
+Facebook</p></a>
+          </xmp>
+          <p>Facebook-icon in the footer</p>
+          <img src="assets\images\styleguide\icon-footer.JPG" alt="icon footer" style="height:auto;width:150px;">
+          <xmp>
+<h1>Facebook</h1>
+<p>
+  <a href="https://www.facebook.com/billumfriskole/">
+    <img src="assets/images/icons/facebook.png" alt="Billum Friskole Facebook" style="width:50px;height:50px;">
+  </a>
+</p>
+          </xmp>
+          <p>Seperation line</p>
+          <img src="assets\images\styleguide\seperation-line.JPG" alt="seperation line" style="height:auto;width:500px;">
+          <xmp>
+<div class="line color01"></div>
           </xmp>
         </section>
       </section>
       <div class="horizontalspacer"></div>
       <section class="tilecontainer flex-direction-column">
-        <article class="tile flex1">
+        <article class="tile-full-width flex1">
           <h3>Navigation</h3>
           <br>
           <p>This code is specifically for the navigation in the header.</p>
+          <img src="assets\images\styleguide\nav.JPG" alt="seperation line" style="height:auto;width:500px;">
+          <br>
         </article>
         <section class="tile flex1">
           <h3>The Code:</h3>
@@ -111,15 +154,77 @@
         </section>
       </section>
       <div class="horizontalspacer"></div>
-      <section class="tilecontainer flex-direction-column color3">
-        <article class="tile flex1">
+      <section class="tilecontainer flex-direction-column">
+        <article class="tile-full-width flex1">
           <h3>Grid System</h3>
           <br>
           <p>There are different elements in the grid system. The grid system on the index page is controlled of having a section that keeps control of the three info boxes, while the the grid system on the subsides are two boxes, controlled by a section. To make space between the different tiles, there are vertical spacers and horizontal spacers. Basically, if you have a section, you have perhaps two pieces of content, serperated by a vertical spacers. The next section is seperated from the previous one with a horizontal spacer.</p>
+          <p>An article (written content) has flex3, while image has flex 1, giving the article 3/4 of the space in a tile section, while the image has 1/4.</p>
+          <br>
         </article>
-        <section class="tile flex1">
+        <section class="tile-full-width flex1">
           <h3>The Code:</h3>
+          <p>Index Tile System:</p>
+          <img src="assets\images\styleguide\tile-index.JPG" alt="index tile" style="height:auto;width:500px;">
           <xmp>
+<section class="tilecontainer flex-direction-row">
+  <a class="tile flexgrow1" href="aktiviteter.html">
+    <section class="height400 image-fit image001">
+      <div class="height400 color2 fullbox">
+        <h3>Aktiviteter</h3>
+        <p>I hverdagene synger vi samles vi til morgensang, hvor vi synger sange fra den danske højskole sangbog.
+          <br>
+          <br>Andre aktiviteter er bl. a. udflugter hvor med enten hele skolen eller med en klasse tager forskellige steder hen</p>
+      </div>
+    </section>
+  </a>
+  <div class="verticalspacer"></div>
+  <a class="tile flexgrow1" href="7-8-klasse.html">
+    <section class="height400 image-fit image002">
+      <div class="height400 color3 fullbox">
+        <h3>7-8 Klasse</h3>
+        <p>7.-.8 klasse. Efterskoleforberedende Friskole
+          <br>
+          <br>Billum Friskole tilbyder 7-8. klasse med et fokus på at komme videre på efterskole i 9. Det gør vi ved at samarbejde med
+          nogen af områdets efterskoler, hvor man kan komme på besøg og finde ud af om det er den måde man ønsker af afslutte sin grundskole på.</p>
+        </div>
+    </section>
+  </a>
+  <div class="verticalspacer"></div>
+  <a class="tile flexgrow1" target="_blank" href="https://ugeavisen.dk/vesterhavsposten/Billum-Friskole-hverdagen-skal-vaere-en-fest/artikel/341889">
+    <section class="height400 image-fit image003">
+      <div class="height400 color4 fullbox">
+        <h3>Læs Artiklen</h3>
+        <p>Læs artiklen ''Billum Friskole: Hverdagen skal være en fest'' fra Ugeavisen Vesterhavsposten om Billum Friskole og hvordan
+          skoleleder Gitte Møller tænker sig skolen skal være</p>
+      </div>
+    </section>
+  </a>
+  <div class="horizontalspacer"></div>
+</section>
+          </xmp>
+          <p>Tile system on subsites (example from "aktiviteter.html"):</p>
+          <img src="assets\images\styleguide\tile-subsite.JPG" alt="subsite tile" style="height:auto;width:500px;">
+          <xmp>
+<section class="tilecontainer flex-direction-column">
+  <div class="horizontalspacer"></div>
+  <section class="tile-full-width image-fit image005 height200">
+  </section>
+  <div class="horizontalspacer"></div>
+  <h1>Aktiviteter</h1>
+  <div class="line color01"></div>
+  <div class="horizontalspacer"></div>
+</section>
+<section class="tilecontainer flex-direction-row">
+  <article class="tile flex3">
+    <p>Her vil der være noget mere content</p>
+  </article>
+  <div class="verticalspacer"></div>
+  <section class="tile flex1">
+    <img src="assets\images\aktiviteter-sikkerhedsvest.jpg" alt="">
+  </section>
+  <div class="horizontalspacer"></div>
+</section>
           </xmp>
         </section>
       </section>
@@ -129,6 +234,7 @@
           <h3>Header</h3>
           <br>
           <p>This is the code for the Header. Copy this code into the bottom of your page to get an exact replica of the Header on the other sides. </p>
+          <img src="assets\images\styleguide\header.JPG" alt="header" style="height:auto;width:500px;">
         </article>
         <section class="tile flex1">
           <h3>The Code:</h3>
@@ -196,12 +302,13 @@
       <div class="horizontalspacer"></div>
       <section class="tilecontainer flex-direction-column">
         <img src="">
-        <article class="tile flex1">
+        <article class="tile-full-width flex1">
           <h3>Footer</h3>
           <br>
           <p>This is the code for the footer. Copy this code into the bottom of your page to get an exact replica of the footer on the other sides. </p>
+          <img src="assets\images\styleguide\footer.JPG" alt="footer" style="height:auto;width:500px;">
         </article>
-        <section class="tile flex1">
+        <section class="tile-full-width flex1">
           <h3>The Code:</h3>
           <xmp>
 <footer class="flex-direction-column">
