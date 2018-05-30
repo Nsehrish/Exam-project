@@ -41,6 +41,14 @@ p{
 .color02{
     background-color: rgba(253, 248, 240, 1);
 }
+/* object-grey */
+.color11{
+  color: rgba(125, 125, 125, 1);
+}
+/* object-sand */
+.color12{
+    color: rgba(253, 248, 240, 1);
+}
 /* tile1 (index) */
 .color1{
   background-color: rgba(190, 72, 131, 0.64);
@@ -116,14 +124,9 @@ background-image: url("../images/front-banner-på-tur.png");
 /* header */
 header{
   width: 100%;
-  min-height: 100px;
+  min-height: 80px;
   display: flex;
   justify-content: space-around;
-  flex-wrap: wrap;
-}
-
-nav h3{
-  color: rgba(253, 248, 240, 1);
 }
 
 nav p{
@@ -139,7 +142,7 @@ nav{
 nav a{
   float: left;
   text-align: center;
-  padding: 0px 40px;
+  padding: 0px 30px;
   text-decoration: none;
 }
 
@@ -162,25 +165,18 @@ nav a:hover h3{
   border-right: 1px solid rgba(253, 248, 240, 1);
 }
 
-.nav-drop .knap-drop{
-  color: red;
-  padding: 0px 40px;
-  margin: 0;
-}
-
 .dropdown-content{
   display: none;
   position: absolute;
   background-color: white;
-  min-width: 169px;
   z-index: 1;
-  margin-top: 34px;
+  margin-top: 33px;
   opacity: 0.9;
 }
 
 .dropdown-content a{
   float: none;
-  padding: 10px 20px;
+  padding: 10px 15px 0 20px;
   text-align: left;
   text-decoration: none;
   display: block;
@@ -192,6 +188,7 @@ nav a:hover h3{
 
 .dropdown-content a:hover p{
   color: black;
+  text-decoration: underline;
 }
 
 .dropdown-content:hover, .nav-drop:hover .knap-drop{
@@ -200,34 +197,25 @@ nav a:hover h3{
 
 .logo-tile{
    align-self: flex-end;
-   padding-left: 6px;
+   height: 70px;
 }
 
 .header-link-tile{
- width: 120px;
- height: 85px;
- align-self: flex-end;
+  width: 120px;
+  height: 70px;
+  align-self: flex-end;
 }
 
 .header-link-tile a{
-   color: rgba(253, 248, 240, 1);
-   text-decoration: none;
+  color: rgba(253, 248, 240, 1);
+  text-decoration: none;
 }
 
 .header-link-tile a:hover{
-   color: rgba(247, 226, 196, 1);
-   text-decoration: none;
-}
-
-.header-facebook-container{
-  display: flex;
+  color: rgba(247, 226, 196, 1);
   text-decoration: none;
 }
 
-.header-intranet{
-  display: flex;
-  text-decoration: none;
-}
 
 /* footer */
 .box{
