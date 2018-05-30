@@ -1,11 +1,7 @@
 /* titles and text */
 @font-face {
-    font-family: "MyriadSetPro700";
-    src: url("../font/Myriad Set Pro 700 Bold.ttf");
-}
-@font-face {
-    font-family: "MyriadSetPro600";
-    src: url("../font/Myriad Set Pro 600 Semibold.ttf");
+    font-family: "CenturyGothicBold";
+    src: url("../font/GOTHICB.ttf");
 }
 @font-face {
     font-family: "CenturyGothic";
@@ -13,25 +9,21 @@
 }
 /* site/subsite name (eksempel "ansatte" eller "værdigrundlag") */
 h1{
-  font-family: "MyriadSetPro700";
+  font-family: "CenturyGothicBold";
   font-size: 2em;
   margin: 0;
 }
 /* underoverskrifter*/
 h2{
-  font-family: "MyriadSetPro600";
+  font-family: "CenturyGothicBold";
   font-size: 1.5em;
   margin: 0;
 }
 /* flere end 3 overskrifter på et site */
 h3{
-  font-family: "MyriadSetPro700";
-  font-size: 2em;
+  font-family: "CenturyGothicBold";
+  font-size: 1.7em;
   margin: 0;
-}
-h4{
-  text-align: right;
-  margin: 10px 10px 10px 0;
 }
 
 /* alt brødtext */
@@ -135,14 +127,12 @@ nav h3{
 }
 
 nav p{
-  font-family: "MyriadSetPro600";
   font-size: 1em;
   margin: 0 10px 10px 0;
   color: rgba(125, 125, 125, 1);
 }
 
 nav{
-  overflow: hidden;
   align-self: flex-end;
 }
 
@@ -275,6 +265,9 @@ footer{
   font-size: 16px;
   margin: 4px 2px;
   cursor: pointer;
+}
+.footerhover:hover{
+  background-color: darkgrey;
 }
 
 /* ---------------------------------------------------------------------- */
