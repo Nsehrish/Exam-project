@@ -31,6 +31,7 @@ p{
   font-family: "CenturyGothic";
   font-size: 1em;
   margin: 0 10px 10px 0;
+  line-height: 1.7;
 }
 /* colorschemes */
 /* background-grey */
@@ -231,6 +232,7 @@ nav a:hover h3{
   position: relative;
   width: 104;
   display: flex;
+  justify-content: space-between;
 }
 
 footer{
@@ -244,8 +246,7 @@ footer{
 }
 
 .footertile{
-  display: flex;
-  flex-grow: 1;
+  display: block;
   flex-direction: column;
 }
 
@@ -253,13 +254,14 @@ footer{
   background-color: rgba(125, 125, 125, 1);
   border: none;
   color: white;
-  padding: 15px 32px;
+  padding: 10px 20px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
   font-size: 16px;
   margin: 4px 2px;
   cursor: pointer;
+  border-radius: 3px;
 }
 .footerhover:hover{
   background-color: darkgrey;
