@@ -35,7 +35,7 @@ p{
 /* colorschemes */
 /* background-grey */
 .color01{
-  background-color: rgba(125, 125, 125, 1);
+  background-color: rgba(125, 125, 125, 0.8);
 }
 /* background-sand */
 .color02{
@@ -119,6 +119,10 @@ background-image: url("../images/front-banner-på-tur.png");
 .image008{
   background-image: url("../images/logo-2.png");
 }
+/* banner for header background */
+.image009{
+  background-image: url("../images/header-picture.jpg");
+}
 
 /* ----------------------------------------------------------------------*/
 /* header */
@@ -127,6 +131,7 @@ header{
   min-height: 80px;
   display: flex;
   justify-content: space-around;
+  box-shadow:inset 0 0 15px #000000;
 }
 
 nav p{
@@ -153,6 +158,7 @@ nav .nav-drop:last-child{
 nav a:hover, .nav-drop:hover .knap-drop h3{
   background-color: white;
   color: rgba(125, 125, 125, 1);
+  opacity: 0.9;
 }
 
 nav a:hover h3{
@@ -193,6 +199,7 @@ nav a:hover h3{
 
 .dropdown-content:hover, .nav-drop:hover .knap-drop{
   background-color: white;
+  opacity: 0.9;
 }
 
 .logo-tile{
