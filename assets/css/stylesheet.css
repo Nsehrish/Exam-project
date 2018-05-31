@@ -316,7 +316,21 @@ a {
   width: 100%;
   height: 2px;
 }
+.index-tile{
+  position: relative;
+  width: 31%;
+  min-height: 10px;
+}
 /* website spacers */
+.marg-bot{
+  margin-bottom: 35px;
+}
+.marg-top{
+  margin-top: 35px;
+}
+.marg-right{
+  margin-right: 35px;
+}
 /* spacer placing itself vertically, used for horizontal stacking */
 .verticalspacer{
   width: 35px;
@@ -351,16 +365,16 @@ a {
   height: 100%;
 }
 .tile-full-width a:hover .color1{
-  background-color: rgba(190, 72, 131, 0.9);
+  background-color: rgba(190, 72, 131, 0.8);
 }
 .tilecontainer a:hover section .color2{
-  background-color: rgba(82, 212, 172, 0.9);
+  background-color: rgba(82, 212, 172, 0.8);
 }
 .tilecontainer a:hover section .color3{
-  background-color: rgba(255, 170, 85, 0.9);
+  background-color: rgba(255, 170, 85, 0.8);
 }
 .tilecontainer a:hover section .color4{
-  background-color: rgba(119, 168, 233, 0.9);
+  background-color: rgba(119, 168, 233, 0.8);
 }
 
 .selfcenter {
@@ -376,18 +390,89 @@ a {
   background-color: grey;
 }
 #message{
-    visibility: hidden; /* Hidden by default. Visible on click */
-    min-width: 250px; /* Set a default minimum width */
-    margin-left: -125px; /* Divide value of min-width by 2 */
-    background-color: #333; /* Black background color */
-    color: #fff; /* White text color */
-    text-align: center; /* Centered text */
-    border-radius: 2px; /* Rounded borders */
-    padding: 16px; /* Padding */
-    position: fixed; /* Sit on top of the screen */
-    z-index: 1; /* Add a z-index if needed */
-    left: 50%; /* Center the snackbar */
-    bottom: 30px; /* 30px from the bottom */
+  visibility: hidden; /* Hidden by default. Visible on click */
+  min-width: 250px; /* Set a default minimum width */
+  margin-left: -125px; /* Divide value of min-width by 2 */
+  background-color: rgba(125, 125, 125, 0.9);
+  color: white; /* White text color */
+  text-align: center; /* Centered text */
+  border-radius: 10px; /* Rounded borders */
+  padding: 26px; /* Padding */
+  position: fixed; /* Sit on top of the screen */
+  z-index: 1; /* Add a z-index if needed */
+  left: 50%; /* Center the snackbar */
+  top: 40%;
 }
 #message.show {
+  visibility: visible; /* Show the snackbar */
+}
+.mySlides{
+  display: none;
+}
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 5px;
+  border: solid rgba(125, 125, 125, 0.8) 1px;
+  background-color: rgba(253, 248, 240, 1);
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+.active, .dot:hover {
+  background-color: rgba(125, 125, 125, 0.8);
+}/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  top: 50%;
+  width: auto;
+  padding: 8px;
+  margin-top: -22px;
+    color: rgba(125, 125, 125, 1);
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 15px;
+}
+.w3-red{
+  background-color: rgba(125, 125, 125, 0.8);
+}
+/* Show the snackbar when clicking on a button (class added with JavaScript) */
+#message.show {
     visibility: visible; /* Show the snackbar */
+
+/* Add animation: Take 0.5 seconds to fade in and out the snackbar.
+However, delay the fade out process for 2.5 seconds */
+    -webkit-animation: fadein 0.5s, fadeout 0.5s 2.5s;
+    animation: fadein 0.5s, fadeout 0.5s 2.5s;
+}
+
+/* Animations to fade the snackbar in and out */
+@-webkit-keyframes fadein {
+    from {opacity: 0;}
+    to {opacity: 1;}
+}
+
+@keyframes fadein {
+    from {opacity: 0;}
+    to {opacity: 1;}
+}
+
+@-webkit-keyframes fadeout {
+    from {opacity: 1;}
+    to {opacity: 0;}
+}
+
+@keyframes fadeout {
+    from {opacity: 1;}
+    to {opacity: 0;}
+}
