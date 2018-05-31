@@ -98,13 +98,7 @@
       <section class="tilecontainer flex-direction-row">
 
         <article class="tile flex1">
-          <p>
-            Billum friskole<br>
-            Kildegårdvej 20<br>
-            Tlf: +45 5188 9596<br>
-            gimo@billumfriskole.dk
-          </p>
-          <p style="margin-top:50px;"><b>Henvendelse</b></p>
+          <p><b>Henvendelse</b></p>
           <p style="margin:10px 5px 2px 0px;">Navn:</p>
           <input type="text">
           <p style="margin:10px 5px 2px 0px;">Email:</p>
@@ -114,10 +108,21 @@
           <p style="margin:10px 5px 2px 0px;">Vedrørende:</p>
           <input style="height:60px;" type="text">
           <br>
-          <button style="margin:10px 0 0 0;" class="button footerhover" id="send">Send</button>
+          <button style="margin:10px 0 0 0;" class="button footerhover" onclick="affirm()">Send</button>
+          <div id="message"><p>Yor message have been send!</p></div>
         </article>
 
         <div class="tile flex1">
+          <p style="margin-top:40px;direction:rtl;">
+            Billum friskole<br>
+            Kildegårdvej 20<br>
+            Tlf: +45 5188 9596<br>
+            gimo@billumfriskole.dk
+          </p>
+        </div>
+
+        <div class="tile flex3">
+          <h2>Google Maps</h2>
           <div id="map"></div>
         </div>
 
@@ -166,8 +171,7 @@
       </section>
     </footer>
   </body>
-<!-- NOTE:
-  <script type="text/javascript" src="../js/googlemaps-script.js"></script>
-  <script async defer src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&callback=initMap"></script>
--->
+  <script src="assets/js/affirm.js"></script>
+  <script src="assets/js/googlemaps-script.js"></script>
+  <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDrMxcX8gnBcJpEOPolE2e54Ky2SPhxQ4A&callback=initMap"></script>
 </html>
