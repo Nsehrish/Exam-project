@@ -51,19 +51,19 @@ p{
 }
 /* tile1 (index) */
 .color1{
-  background-color: rgba(190, 72, 131, 0.64);
+  background-color: rgba(202, 0, 114, 0.5);
 }
 /* tile2 (index) */
 .color2{
-  background-color: rgba(82, 212, 172, 0.64);
+  background-color: rgba(157, 236, 0, 0.5);
 }
 /* tile3 (index) */
 .color3{
-  background-color: rgba(255, 170, 85, 0.64);
+  background-color: rgba(252, 168, 0, 0.5);
 }
 /* tile4 (index) */
 .color4{
-  background-color: rgba(119, 168, 233, 0.64);
+  background-color: rgba(6, 94, 162, 0.5);
 }
 
 /* images */
@@ -365,16 +365,16 @@ a {
   height: 100%;
 }
 .tile-full-width a:hover .color1{
-  background-color: rgba(190, 72, 131, 0.8);
+  background-color: rgba(202, 0, 114, 0.7);
 }
 .tilecontainer a:hover section .color2{
-  background-color: rgba(82, 212, 172, 0.8);
+  background-color: rgba(157, 236, 0, 0.7);
 }
 .tilecontainer a:hover section .color3{
-  background-color: rgba(255, 170, 85, 0.8);
+  background-color: rgba(252, 168, 0, 0.7);
 }
 .tilecontainer a:hover section .color4{
-  background-color: rgba(119, 168, 233, 0.8);
+  background-color: rgba(6, 94, 162, 0.7);
 }
 
 .selfcenter {
@@ -393,14 +393,14 @@ a {
   visibility: hidden; /* Hidden by default. Visible on click */
   min-width: 250px; /* Set a default minimum width */
   margin-left: -125px; /* Divide value of min-width by 2 */
-  background-color: rgba(125, 125, 125, 0.9);
+  background-color: rgba(202, 0, 114, 0.8);
   color: white; /* White text color */
   text-align: center; /* Centered text */
   border-radius: 10px; /* Rounded borders */
   padding: 26px; /* Padding */
   position: fixed; /* Sit on top of the screen */
   z-index: 1; /* Add a z-index if needed */
-  left: 50%; /* Center the snackbar */
+  left: 20%; /* Center the snackbar */
   top: 40%;
 }
 #message.show {
