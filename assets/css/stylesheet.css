@@ -132,6 +132,7 @@ header{
   display: flex;
   justify-content: space-around;
   box-shadow:inset 0 0 15px #000000;
+  flex-direction: row;
 }
 
 nav p{
@@ -475,4 +476,39 @@ However, delay the fade out process for 2.5 seconds */
 @keyframes fadeout {
     from {opacity: 1;}
     to {opacity: 0;}
+}
+
+/* ---------------------------------------------------------------------------------
+mobile optimization */
+@media screen and (max-width: 1000px){
+
+.header-link-tile{
+  position: absolute;
+  padding: 0 10px 0;
+  top: 10px;
+}
+.logo-tile{
+  position: absolute;
+  padding: 10px 0 0 10px;
+  top: 0;
+  align-self: flex-start;
+}
+.dropdown-content{
+  margin-top: 60px;
+}
+nav{
+  padding-top: 80px;
+  align-self: center;
+}
+header{
+  flex-direction: column;
+  align-content: center;
+}
+nav a{
+  padding:10px;
+}
+main p{
+  font-size: 1.4em;
+}
+
 }
