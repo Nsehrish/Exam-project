@@ -98,16 +98,16 @@
         <article class="tile flex1">
           <p><b>Henvendelse</b></p>
           <p style="margin:10px 5px 2px 0px;">Navn:</p>
-          <input type="text">
+          <input type="text" id="name" autocomplete="name">
           <p style="margin:10px 5px 2px 0px;">Email:</p>
-          <input style="margin-top:0;" type="email">
+          <input style="margin-top:0;" type="email" id="email" autocomplete="email">
           <p style="margin:10px 5px 2px 0px;">Telefon:</p>
-          <input type="tel">
+          <input type="tel" id="phone" autocomplete="tel">
           <p style="margin:10px 5px 2px 0px;">Vedrørende:</p>
-          <input style="height:60px;" type="text">
+          <input style="height:60px;" type="text" id="msg">
           <br>
           <button style="margin:10px 0 0 0;" class="button footerhover" onclick="affirm()">Send</button>
-          <div class="color1" id="message"><p style="margin:0;">Yor message have been send!</p></div>
+          <div class="color1" id="message"> <p>Tak for din henvendelser</p> </div>
         </article>
 
         <div class="tile flex1">
@@ -166,7 +166,6 @@
       </section>
     </footer>
   </body>
-  <script src="assets/js/affirm.js"></script>
-  <script src="assets/js/googlemaps-script.js"></script>
+  <script src="assets/js/kontakt.js"></script>
   <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDrMxcX8gnBcJpEOPolE2e54Ky2SPhxQ4A&callback=initMap"></script>
 </html>
